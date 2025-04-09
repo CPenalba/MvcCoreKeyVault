@@ -1,0 +1,14 @@
+﻿﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Azure Key Vault</h1>
+    <form method="post">
+        <label>Key Vault Secret</label>
+        <input type="text" name="secretname" class="form-control" />
+        <button class="btn btn-info">Modstrar Secreto</button>
+    </form>
+</div>
+
+<h2 style="color:blue;">@ViewData["SECRETO"]</h2>
